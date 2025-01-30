@@ -7,6 +7,7 @@ const hmoLogos = [
   "/hmo/hygeia.png",
   "/hmo/avon.png",
   "/hmo/ultimate.webp",
+  "/hmo/sunu.jpg",
 ]
 </script>
 <template>

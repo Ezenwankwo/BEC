@@ -93,14 +93,14 @@
           <ul class="text-center lg:mt-2 lg:text-left">
             <li class="mb-4">
               <NuxtLink
-                to="/adopt"
+                to="/"
                 class="hover:text-sky-600 dark:text-sky-200"
                 >Adopt Now</NuxtLink
               >
             </li>
             <li class="mb-4">
               <NuxtLink
-                to="/quick-start"
+                to="/blog"
                 class="hover:text-sky-600 dark:text-sky-200"
                 >Donate</NuxtLink
               >
