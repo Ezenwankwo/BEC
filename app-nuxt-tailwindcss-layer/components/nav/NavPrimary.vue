@@ -28,8 +28,7 @@
     </div>
     <BaseButton
       class="ml-3"
-      target="_blank"
-      to="https://vuedesigner.com"
+      to="/"
       size="xl"
       color="sky"
     >

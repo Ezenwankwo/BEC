@@ -4,25 +4,25 @@
       name: 'Comprehensive Eye Exams',
       image: 'mission.jpg',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.',
+        'Regular checkups are crucial for detecting vision problems, eye diseases, and overall eye health.',
     },
     {
       name: 'Vision Correction',
       image: 'vision-correction.jpg',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.',
+        'Providing customized eyewear solutions ensures patients get the best visual correction tailored to their needs.',
     },
     {
       name: 'Treatment of Eye Diseases',
       image: 'mission.jpg',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.',
+        'Managing conditions like glaucoma, cataracts, and dry eye syndrome helps maintain long-term vision health.',
     },
     {
-      name: 'Padiatric and Geraitric Eye Care',
-      image: 'mission.jpg',
+      name: 'Padiatric & Geriatric Care',
+      image: 'impact.jpg',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.',
+        'Specialized care for children and the elderly helps in early detection of vision issues and age-related conditions.',
     },
   ]
 </script>

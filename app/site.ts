@@ -4,8 +4,8 @@
 
 export default {
   title: 'Benita Eye Clinic',
-  description: 'Eyecare and Optometry Clinic in Calabar, Nigeria',
-  logo: 'i-noto:cat-face',
+  description: '',
+  logo: 'benita.png',
   author: 'Benita Eye Clinic',
   url: 'https://www.benitaeyeclinic.com',
   github: 'https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss',
@@ -15,7 +15,7 @@ export default {
   identity: {
     type: 'Organization',
   } as any,
-  twitter: '@vuedesigner',
+  twitter: '@benitaeyeclinic',
   trailingSlash: false, // default
   titleSeparator: '|', // default
 

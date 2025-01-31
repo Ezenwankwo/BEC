@@ -35,20 +35,12 @@
           </p>
           <div class="-mx-4 flex flex-wrap items-center">
             <div class="px-4 py-6 w-1/2">
-              <h2 class="mb-2">1200+</h2>
-              <p>Animals Adopted</p>
+              <h2 class="mb-2">20,000+</h2>
+              <p>Patients Served</p>
             </div>
             <div class="px-4 py-6 w-1/2">
-              <h2 class="mb-2">1000+</h2>
-              <p>Families United</p>
-            </div>
-            <div class="px-4 py-6 w-1/2">
-              <h2 class="mb-2">20+</h2>
-              <p>Active Volunteers</p>
-            </div>
-            <div class="px-4 py-6 w-1/2">
-              <h2 class="mb-2">10K+</h2>
-              <p>Animals Helped</p>
+              <h2 class="mb-2">55,000+</h2>
+              <p>Vision Screening</p>
             </div>
           </div>
         </div>

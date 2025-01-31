@@ -9,15 +9,16 @@
         />
       </div>
       <div class="mx-auto p-4 w-full lg:w-5/12">
-        <h6 class="mb-2 text-sky-600 dark:text-sky-200 uppercase">
+        <h6 class="mb-2 font-bold text-sky-600 dark:text-sky-200 uppercase">
           Our Mission
         </h6>
         <h3 class="capitalize mb-2">
-          Life changing experience for a valuable cause
+          Enhancing vision and improving lives.
         </h3>
         <p class="mb-6">
-          Enhancing vision and improving lives through innovative, 
-          compassionate, and quality eye health services.
+          We strive to set the 
+          standard in innovative, compassionate, and high-quality eye health services,
+          empowering individuals to see the world more clearly.
         </p>
       </div>
     </div>
