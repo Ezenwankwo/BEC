@@ -4,10 +4,10 @@
 
 export default {
   title: 'Benita Eye Clinic',
-  description: 'Eyecare and Optometry Clinic',
+  description: 'Eyecare and Optometry Clinic in Calabar, Nigeria',
   logo: 'i-noto:cat-face',
-  author: 'Pinegrow',
-  url: 'https://happy-paws-with-nuxt-tailwindcss.netlify.app',
+  author: 'Benita Eye Clinic',
+  url: 'https://www.benitaeyeclinic.com',
   github: 'https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss',
   ogImageUrl: 'hero.jpg', // absolute url (or) from public folder
   generator: 'https://vuedesigner.com',
