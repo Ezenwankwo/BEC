@@ -8,7 +8,7 @@
     },
     {
       name: 'Vision Correction',
-      image: 'mission.jpg',
+      image: 'vision-correction.jpg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae congue tortor.',
     },
