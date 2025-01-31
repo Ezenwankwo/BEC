@@ -6,8 +6,7 @@
     title: 'Home',
     description: 'Eyecare and Optometry Clinic in Calabar, Nigeria',
     navOrder: 1,
-    type: 'primary',
-    icon: 'i-mdi-home',
+    type: 'sky',
     ogImage: 'hero.jpg', // url or local images inside public folder, for eg, ~/public/images/ogImage.png
   })
 </script>
