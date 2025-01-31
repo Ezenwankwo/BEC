@@ -4,12 +4,12 @@
 
 export default {
   title: 'Benita Eye Clinic',
-  description: 'Adopt Your Fur Mate',
+  description: 'Eyecare and Optometry Clinic',
   logo: 'i-noto:cat-face',
   author: 'Pinegrow',
   url: 'https://happy-paws-with-nuxt-tailwindcss.netlify.app',
   github: 'https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss',
-  ogImageUrl: 'og-image.jpg', // absolute url (or) from public folder
+  ogImageUrl: 'hero.jpg', // absolute url (or) from public folder
   generator: 'https://vuedesigner.com',
   defaultLocale: 'en', // default
   identity: {
