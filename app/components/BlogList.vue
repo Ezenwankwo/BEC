@@ -3,7 +3,7 @@
 </script>
 <template>
   <section>
-    <div class="container flex justify-center mx-auto px-4 relative">
+    <div class="container flex justify-center mx-auto px-4 relative pt-10">
       <div class="rounded-lg">
         <div class="flex flex-wrap justify-center">
           <ul class="divide-y divide-gray-200 dark:divide-gray-700">

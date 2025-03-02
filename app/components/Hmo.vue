@@ -1,13 +1,13 @@
 <script setup lang="ts">
 const hmoLogos = [
-  "/hmo/reliance.svg",
-  "/hmo/leadway.webp",
   "/hmo/axa.png",
+  "/hmo/nhis.jpg",
+  "/hmo/reliance.svg",
+  "/hmo/tht.svg",
   "/hmo/anchor.png",
   "/hmo/hygeia.png",
-  "/hmo/avon.png",
+  "/hmo/unitedhmo.svg",
   "/hmo/ultimate.webp",
-  "/hmo/sunu.jpg",
 ]
 </script>
 <template>
@@ -17,7 +17,7 @@ const hmoLogos = [
         We Are Trusted By The Best HMO
       </h3>
       <p class="mt-4 text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Providing quality eye care through partnerships with leading HMOs.
       </p>
     </div>
     <div class="flex flex-wrap justify-center gap-6 mt-12">

@@ -1,7 +1,3 @@
-// since `.js, .ts` files are not included by default,
-// the following comment tells UnoCSS to force scan this file (to pick the logo icon).
-// @unocss-include
-
 export default {
   title: 'Benita Eye Clinic',
   description: '',
@@ -25,6 +21,11 @@ export default {
         title: 'Home',
         icon: 'i-mdi-home',
         to: '/',
+      },
+      {
+        title: 'HMO',
+        icon: 'i-mdi-home',
+        to: '/hmo',
       },
       {
         title: 'Blog',

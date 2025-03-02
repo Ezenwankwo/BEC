@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Hmo from '~/components/Hmo.vue';
+
   definePageMeta({
     // layout: 'default',
     // name: 'index',
@@ -13,7 +15,7 @@
 <template>
   <div>
     <HeroSection />
-    <CallToAction />
+    <Hmo />
     <MiniDivider />
     <OurMission />
     <PetListLite />
