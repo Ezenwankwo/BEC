@@ -25,6 +25,11 @@ const hmoLogos = [
         <img :src="logo" :alt="`HMO ${index + 1}`" class="h-12 object-contain" />
       </div>
     </div>
+    <NuxtLink to="/hmo">
+      <div class="flex justify-center mt-12 text-sky-600 dark:text-sky-200">
+        View all HMOs
+      </div>
+    </NuxtLink> 
   </section>
 </template>
 <style scoped></style>

@@ -4,7 +4,7 @@
     // name: 'slug',
     // alias: 'slug',
     title: 'Blog',
-    description: 'Read, Learn, Enjoy: Your Blog Destination!',
+    description: 'Expert insights, eye care tips for a healthy vision.',
     hidden: true,
     navOrder: 5,
     type: 'secondary',
@@ -42,9 +42,9 @@
             </div>
             <div>
               <PostDate :date="post.date" />
-              <h1>
+              <h2>
                 {{ post.title }}
-              </h1>
+              </h2>
             </div>
           </header>
           <div

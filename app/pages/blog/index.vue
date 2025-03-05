@@ -4,7 +4,7 @@ definePageMeta({
   // name: 'blog',
   // alias: 'blog',
   title: 'Blog',
-  description: 'Read, Learn, Enjoy: Your Blog Destination!',
+  description: 'Expert insights, eye care tips for a healthy vision.',
   navOrder: 5,
   type: 'secondary',
   icon: 'i-mdi-home',

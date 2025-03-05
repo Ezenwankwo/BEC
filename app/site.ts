@@ -32,11 +32,6 @@ export default {
         icon: 'i-mdi-home',
         to: '/blog',
       },
-      {
-        title: 'Contact',
-        icon: 'i-mdi-home',
-        to: '/volunteer',
-      },
     ],
     secondary: [
       {

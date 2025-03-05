@@ -78,7 +78,7 @@
               </NuxtLink>
             </div>
           </div>
-          <div class="my-6 text-center">
+          <div class="my-6">
             <NuxtLink to="/">+234 803 756 4564</NuxtLink>
             <br />
             <NuxtLink to="/">benitaeye@yahoo.com</NuxtLink>
@@ -107,9 +107,9 @@
             </li>
             <li class="mb-4">
               <NuxtLink
-                to="/blog"
+                to="/hmo"
                 class="hover:text-sky-600 dark:text-sky-200"
-                >Contact</NuxtLink
+                >HMO</NuxtLink
               >
             </li>
             <li class="mb-4">
@@ -121,7 +121,7 @@
             </li>
           </ul>
         </div>
-        <div class="flex flex-col items-center p-4 w-full md:w-1/3">
+        <div class="flex flex-col items-center w-full md:w-1/3">
           <h2 class="font-bold text-sky-600 dark:text-sky-200 text-xl">
             Gallery
           </h2>
