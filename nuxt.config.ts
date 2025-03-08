@@ -56,22 +56,24 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: [
-    '@pinegrow/nuxt-module',
-    '@unocss/nuxt',
-    '@nuxt/content',
-    '@vueuse/nuxt',
-    '@pinia/nuxt',
-    // '@nuxtjs/html-validator',
-    '@nuxt/image',
-    '@vee-validate/nuxt',
-    '@nuxtjs/seo',
-    // '@nuxtjs/fontaine', // blocked by https://github.com/nuxt-modules/fontaine/issues/342
-    '@nuxtjs/critters',
-    // '@nuxt/icon', // Enable once nuxt-icon is removed
-    'nuxt-icon', // To be replaced with @nuxt-icon (above), once NuxtSEO drops using this/becomes stable..
-    '@nuxt/eslint',
-  ],
+  modules: ['@pinegrow/nuxt-module', '@unocss/nuxt', '@nuxt/content', '@vueuse/nuxt', '@pinia/nuxt', // '@nuxtjs/html-validator',
+  '@nuxt/image', '@vee-validate/nuxt', '@nuxtjs/seo', // '@nuxtjs/fontaine', // blocked by https://github.com/nuxt-modules/fontaine/issues/342
+  '@nuxtjs/critters', // '@nuxt/icon', // Enable once nuxt-icon is removed
+  // To be replaced with @nuxt-icon (above), once NuxtSEO drops using this/becomes stable..
+  ['nuxt-mail', {
+    message: {
+      to: process.env.MAIL_TO,
+    },
+    smtp: {
+      host: "smtp-relay.brevo.com",
+      port: 587,
+      auth: {
+        user: process.env.BREVO_USER,
+        pass: process.env.BREVO_PASS,
+      },
+    },
+  }],
+  'nuxt-icon', '@nuxt/eslint',],
 
   // https://dev.to/jacobandrewsky/improving-performance-of-nuxt-with-fontaine-5dim
   // blocked by https://github.com/nuxt-modules/fontaine/issues/342

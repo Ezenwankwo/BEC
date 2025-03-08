@@ -52,6 +52,7 @@
     "npm-run-all": "^4.1.5",
     "nuxt": "^3.15.1",
     "nuxt-icon": "^0.6.10",
+    "nuxt-mail": "^5.1.1",
     "postcss": "^8.5.0",
     "prettier": "^3.4.2",
     "rehype-external-links": "^3.0.0",

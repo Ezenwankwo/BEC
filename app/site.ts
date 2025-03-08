@@ -37,7 +37,7 @@ export default {
       {
         title: 'Book Appointment',
         icon: 'i-mdi-home',
-        to: '/volunteer',
+        to: '/appointment',
       },
     ],
   },
