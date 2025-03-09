@@ -1,10 +1,10 @@
 <script setup lang="ts">
-  // const props = defineProps({
-  // 	name: {
-  // 		type: String,
-  // 		default: 'StatsSection',
-  // 	},
-  // })
+// const props = defineProps({
+// 	name: {
+// 		type: String,
+// 		default: 'StatsSection',
+// 	},
+// })
 </script>
 <template>
   <section>
@@ -16,22 +16,16 @@
             class="mb-6 rounded-3xl w-full"
             alt="Stats"
           /> -->
-          <NuxtImg
-            src="/impact.jpg"
-            class="mb-6 rounded-3xl w-full"
-            alt="Stats"
-          />
+          <NuxtImg src="/impact.jpg" class="mb-6 rounded-3xl w-full" alt="Stats" />
         </div>
         <div class="lg:w-6/12 mx-auto p-4 w-full">
-          <h6
-            class="font-bold mb-2 text-sky-600 dark:text-sky-200 uppercase"
-          >
+          <h6 class="font-bold mb-2 text-sky-600 dark:text-sky-200 uppercase">
             Our Work
           </h6>
           <h3 class="capitalize mb-6">Impact we make</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet.
+            Bringing clear vision to communities through expert eye care.
+            Thousands treated, countless lives improved.
           </p>
           <div class="-mx-4 flex flex-wrap items-center">
             <div class="px-4 py-6 w-1/2">

@@ -21,17 +21,18 @@
           </p>
           <div class="inline-flex mt-6 space-x-3">
             <div class="flex flex-wrap space-x-4">
-              <NuxtLink href="https://www.facebook.com/vuedesigner" aria-label="facebook" external target="_blank">
+              <NuxtLink href="#" aria-label="facebook" external target="_blank">
                 <BaseIcon name="i-logos-facebook" class="text-2xl" width="28px" />
               </NuxtLink>
-              <NuxtLink href="https://twitter.com/vuedesigner" aria-label="twitter" external target="_blank">
+              <NuxtLink href="https://x.com/BenitaEyeClinic" aria-label="twitter" external target="_blank">
                 <BaseIcon name="i-logos-twitter" class="text-2xl" width="28px" />
               </NuxtLink>
-              <NuxtLink href="https://discord.gg/BYp45Nnu5T" aria-label="discord" external target="_blank">
-                <BaseIcon name="i-logos-discord-icon" class="text-2xl" width="28px" />
+              <NuxtLink href="https://www.instagram.com/BenitaEyeClinic" aria-label="instagram" external
+                target="_blank">
+                <BaseIcon name="i-skill-icons-instagram" class="text-2xl" width="28px" />
               </NuxtLink>
               <NuxtLink href="https://www.youtube.com/@vuedesigner" aria-label="youtube" external target="_blank">
-                <BaseIcon name="i-logos-youtube-icon" class="text-2xl" width="28px" />
+                <BaseIcon name="i-devicon-linkedin" class="text-2xl" width="28px" />
               </NuxtLink>
             </div>
           </div>
@@ -67,32 +68,32 @@
           <div class="-mx-2 flex flex-wrap items-center lg:mt-2">
             <div class="p-2 w-1/2 sm:w-4/12">
               <div class="block hover:opacity-75 overflow-hidden rounded-xl">
-                <NuxtImg src="/mission.jpg" class="w-full" />
+                <NuxtImg src="/reception.jpeg" class="w-full" />
               </div>
             </div>
             <div class="p-2 w-1/2 sm:w-4/12">
               <div class="block hover:opacity-75 overflow-hidden rounded-xl">
-                <NuxtImg src="/hero.jpg" class="w-full" />
+                <NuxtImg src="/waitroom.jpeg" class="w-full" />
               </div>
             </div>
             <div class="p-2 w-1/2 sm:w-4/12">
               <div class="block hover:opacity-75 overflow-hidden rounded-xl">
-                <NuxtImg src="/impact.jpg" class="w-full" />
+                <NuxtImg src="/disease.jpeg" class="w-full" />
               </div>
             </div>
             <div class="p-2 w-1/2 sm:w-4/12">
               <div class="block hover:opacity-75 overflow-hidden rounded-xl">
-                <NuxtImg src="/hero.jpg" class="w-full" />
+                <NuxtImg src="/comprehensive.jpeg" class="w-full" />
               </div>
             </div>
             <div class="p-2 w-1/2 sm:w-4/12">
               <div class="block hover:opacity-75 overflow-hidden rounded-xl">
-                <NuxtImg src="/vision-correction.jpg" class="w-full" />
+                <NuxtImg src="/correction.jpeg" class="w-full" />
               </div>
             </div>
             <div class="p-2 w-1/2 sm:w-4/12">
               <div class="block hover:opacity-75 overflow-hidden rounded-xl">
-                <NuxtImg src="/mission.jpg" class="w-full" />
+                <NuxtImg src="/geriatric.jpeg" class="w-full" />
               </div>
             </div>
           </div>

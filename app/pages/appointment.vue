@@ -1,10 +1,7 @@
 <script setup>
 definePageMeta({
-  // layout: 'default',
-  // name: 'volunteer',
-  // alias: 'volunteer',
   title: 'Book Appointment',
-  description: "Schedule Your Eye Exam Today for Clearer, Healthier Vision.",
+  description: 'Schedule Your Eye Exam Today for Clearer, Healthier Vision.',
   navOrder: '6',
   type: 'secondary',
   icon: 'i-mdi-home',
@@ -12,46 +9,68 @@ definePageMeta({
 })
 
 const formData = reactive({
-  first_name: "",
-  last_name: "",
-  email: "",
-  phone: "",
-  preferred_date: "",
-  preferred_time: "",
-  alternate_date: "",
-  reason_for_visit: "",
-  hmo: "",
-  new_patient: "",
-});
+  first_name: '',
+  last_name: '',
+  email: '',
+  phone: '',
+  preferred_date: '',
+  preferred_time: '',
+  alternate_date: '',
+  reason_for_visit: '',
+  hmo: '',
+  new_patient: '',
+})
 
-const mail = useMail();
+const mail = useMail()
+const snackbar = useSnackbar();
 
 const sendMessage = async () => {
+  // Format the data nicely
+  const formattedMessage = `
+    New Appointment Request:
+
+    Name: ${formData.first_name} ${formData.last_name}
+    Email: ${formData.email}
+    Phone: ${formData.phone}
+
+    Preferred Date: ${formData.preferred_date} (${formData.preferred_time})
+    Alternate Date: ${formData.alternate_date}
+    
+    Reason for Visit: ${formData.reason_for_visit}
+    HMO: ${formData.hmo}
+    New Patient: ${formData.new_patient ? "Yes" : "No"}
+  `;
   try {
     await mail.send({
       from: `${formData.first_name} <${formData.email}>`,
-      subject: "Appointment Request",
-      text: JSON.stringify(formData),
-    });
-    console.log(JSON.stringify(formData));
-    resetForm();
+      subject: 'Appointment Request',
+      text: formattedMessage,
+    })
+    snackbar.add({
+      type: 'success',
+      text: 'Your appointment request has been sent successfully.',
+    })
+    resetForm()
   } catch (error) {
-    console.error(error);
+    snackbar.add({
+      type: 'error',
+      text: 'An error occurred while sending your appointment request.',
+    })
   }
-};
+}
 
 const resetForm = () => {
-  formData.first_name = "";
-  formData.last_name = "";
-  formData.email = "";
-  formData.phone = "";
-  formData.preferred_date = "";
-  formData.preferred_time = "";
-  formData.alternate_date = "";
-  formData.reason_for_visit = "";
-  formData.hmo = "";
-  formData.new_patient = "";
-};
+  formData.first_name = ''
+  formData.last_name = ''
+  formData.email = ''
+  formData.phone = ''
+  formData.preferred_date = ''
+  formData.preferred_time = ''
+  formData.alternate_date = ''
+  formData.reason_for_visit = ''
+  formData.hmo = ''
+  formData.new_patient = ''
+}
 </script>
 <template>
   <div class="pb-12">
@@ -63,16 +82,13 @@ const resetForm = () => {
               <h2 class="font-bold leading-tight mb-2 text-3xl">
                 Book Appointment
               </h2>
-              <p>
-                Schedule Your Eye Exam Today for Clearer, Healthier Vision.
-              </p>
+              <p>Schedule Your Eye Exam Today for Clearer, Healthier Vision.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <form class="mx-auto sm:w-9/12 xl:w-8/12 bg-white p-6 rounded-lg" data-drip-embedded-form="243852739">
-
       <!-- Personal Information Section -->
       <div class="mb-6">
         <h3 class="text-lg font-semibold mb-3">Personal Information</h3>
@@ -182,7 +198,8 @@ const resetForm = () => {
       </div>
 
       <p class="mt-4 text-sm text-gray-500 text-center">
-        Note: This request does not guarantee an appointment. We will contact you to confirm availability.
+        Note: This request does not guarantee an appointment. We will contact
+        you to confirm availability.
       </p>
     </form>
   </div>

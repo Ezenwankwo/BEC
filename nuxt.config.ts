@@ -56,24 +56,23 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@pinegrow/nuxt-module', '@unocss/nuxt', '@nuxt/content', '@vueuse/nuxt', '@pinia/nuxt', // '@nuxtjs/html-validator',
-  '@nuxt/image', '@vee-validate/nuxt', '@nuxtjs/seo', // '@nuxtjs/fontaine', // blocked by https://github.com/nuxt-modules/fontaine/issues/342
-  '@nuxtjs/critters', // '@nuxt/icon', // Enable once nuxt-icon is removed
-  // To be replaced with @nuxt-icon (above), once NuxtSEO drops using this/becomes stable..
+  modules: ['@pinegrow/nuxt-module', '@unocss/nuxt', '@nuxt/content', '@vueuse/nuxt', // '@nuxtjs/html-validator',
+  '@pinia/nuxt', '@nuxt/image', '@vee-validate/nuxt', // '@nuxtjs/fontaine', // blocked by https://github.com/nuxt-modules/fontaine/issues/342
+  '@nuxtjs/seo', // '@nuxt/icon', // Enable once nuxt-icon is removed
+  '@nuxtjs/critters', // To be replaced with @nuxt-icon (above), once NuxtSEO drops using this/becomes stable..
   ['nuxt-mail', {
     message: {
       to: process.env.MAIL_TO,
     },
     smtp: {
       host: "smtp-relay.brevo.com",
-      port: 587,
+      port: 2525,
       auth: {
         user: process.env.BREVO_USER,
         pass: process.env.BREVO_PASS,
       },
     },
-  }],
-  'nuxt-icon', '@nuxt/eslint',],
+  }], 'nuxt-icon', '@nuxt/eslint', 'nuxt-snackbar'],
 
   // https://dev.to/jacobandrewsky/improving-performance-of-nuxt-with-fontaine-5dim
   // blocked by https://github.com/nuxt-modules/fontaine/issues/342
@@ -336,6 +335,12 @@ export default defineNuxtConfig({
       //   },
       // ],
     },
+  },
+
+  snackbar: {
+    bottom: true,
+    right: true,
+    duration: 5000
   },
 
   compatibilityDate: '2025-01-14',
